@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="paivitaKaikki()">
+    <script src="script.js"></script>
+
+
+
+    <section class="rahanakyma">
+        <div class="rahat">
+         <div id="rahaa"></div>
+         <div id="panos"></div>
+        </div>
+    </section>
+ 
+    <section class="hedelma-ruudut">
+ 
+        <div class="hedelma-ruutu" >
+            <img id="hedelma1" class ="hedelma" src="img/timantti.png" alt="hedelma">
+         </div>
+ 
+        <div class="hedelma-ruutu">
+            <img id="hedelma2" class ="hedelma" src="img/timantti.png" alt="hedelma">
+         </div>
+ 
+        <div class="hedelma-ruutu">
+            <img id="hedelma3" class ="hedelma" src="img/timantti.png" alt="hedelma">
+         </div>
+    </section>
+
+
+    <section class="nappulat">
+            <input type="button" class="nappula" value="Pelaa" onclick="pelaa()"><br>
+            <input type="button" class="nappula" value="Vaihda panos" onclick="vaihdaPanos()">
+    </section>
+
+    
+    <section class="voitto-taulukko">
+      <div class="voitto-otsikko">Mahdolliset voitot</div>
+            <div class="banaanit">
+                <div class="banaani-kuva">
+                    <img src="img/banaani.png" alt="banaani" class="banaaniKuva">
+                  </div>
+                  <div class="banaani-kuva">
+                    <img src="img/banaani.png" alt="banaani" class="banaaniKuva">
+                  </div>
+                  <div class="banaani-kuva">
+                    <img src="img/banaani.png" alt="banaani" class="banaaniKuva">
+                  </div> 
+                  <div class="voittokerroin" id="banaanit-voitto"></div>
+            </div>
+                  
+                 
+            
+
+            <div class="omenat">
+                <div class="omena-kuva">
+                    <img src="img/omena.png" alt="omena" class="omenaKuva">
+                  </div>
+                  <div class="omena-kuva">
+                    <img src="img/omena.png" alt="omena" class="omenaKuva">
+                  </div>
+                  <div class="omena-kuva">
+                    <img src="img/omena.png" alt="pomena" class="omenaKuva">
+                  </div>
+                  <div class="voittokerroin" id="omenat-voitto"></div>
+            </div>
+
+            
+
+            <div class="paarynat">
+              <div class="paaryna-kuva">
+                  <img src="img/paaryna.png" alt="päärynä" class="paarynaKuva">
+                </div>
+                <div class="paaryna-kuva">
+                  <img src="img/paaryna.png" alt="päärynä" class="paarynaKuva">
+                </div>
+                <div class="paaryna-kuva">
+                  <img src="img/paaryna.png" alt="päärynä" class="paarynaKuva">
+                </div>
+                <div class="voittokerroin" id="paarynat-voitto"></div>
+          </div>
+
+          
+
+          <div class="vesimeloonit">
+            <div class="vesimelooni-kuva">
+                <img src="img/vesimelooni.png" alt="vesimelooni" class="vesimelooniKuva">
+              </div>
+              <div class="vesimelooni-kuva">
+                <img src="img/vesimelooni.png" alt="vesimelooni" class="vesimelooniKuva">
+              </div>
+              <div class="vesimelooni-kuva">
+                <img src="img/vesimelooni.png" alt="vesimelooni" class="vesimelooniKuva">
+              </div>
+              <div class="voittokerroin" id="vesimeloonit-voitto"></div>
+        </div>
+
+       
+
+        <div class="timantit">
+          <div class="timantti-kuva">
+              <img src="img/timantti.png" alt="timantti" class="timanttiKuva">
+            </div>
+            <div class="timantti-kuva">
+              <img src="img/timantti.png" alt="timantti" class="timanttiKuva">
+            </div>
+            <div class="timantti-kuva">
+              <img src="img/timantti.png" alt="timantti" class="timanttiKuva">
+            </div>
+            <div class="voittokerroin" id="timantit-voitto"></div>
+      </div>
+
+      
+
+
+
+    </section>
+
+    
+
+  
+    
+</body>
+</html>
