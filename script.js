@@ -183,10 +183,14 @@ function paivitaPanos() {
 
 
 function vaihdaPanos() {
-    if (panos <= (maksimipanos - 0.5)) {
-        panos += 0.5;
-    } else {
+    
+    if(rahaa < panos + 0.5){
         panos = minimipanos;
+    }else{
+      if (panos <= (maksimipanos - 0.5)) {
+        panos += 0.5;
+    }  
     }
+   
     paivitaKaikki();
 }
