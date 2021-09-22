@@ -52,6 +52,7 @@
     padding: 5px;
     margin-top: 10px;
     background-color: var(--bordervari);
+    cursor: pointer;
 }
 
 .voitto-taulukko{
@@ -87,5 +88,38 @@
 
 .voitto-otsikko{
     font-size: 2.5em;
+}
+
+
+.lukittu-painikkeet{
+    width: 10%;
+    transform: translateX(-50%);
+    margin-left: 50%;
+}
+
+
+
+.lukittu-painike-1, .lukittu-painike-2, .lukittu-painike-3{
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    user-select: none; 
+}
+
+
+
+.lukittu-painike-1{
+background-color: gray;
+}
+
+
+.lukittu-painike-2{
+background-color: gray;
+
+}
+
+.lukittu-painike-3{
+background-color: gray;
+
 }
 
