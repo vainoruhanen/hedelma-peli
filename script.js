@@ -212,24 +212,28 @@ function paivitaPanos() {
 
 
 function vaihdaPanos() {
-    
-    if(rahaa < panos + 0.5){
-        panos = minimipanos;
-    }else{
-      if (panos <= (maksimipanos - 0.5)) {
-        panos += 0.5;
-    }  
-    }
-   
-    paivitaKaikki();
+    if(pelikaynnissa == false){
+        if(rahaa < panos + 0.5){
+            panos = minimipanos;
+        }else{
+          if (panos <= (maksimipanos - 0.5)) {
+            panos += 0.5;
+        }  
+        }
+       
+        paivitaKaikki();
+    }   
 }
 
 function vaihdaPanosPienemmaksi(){
-    if(panos >= minimipanos + 0.5){
-        panos -= 0.5;  
+    if(pelikaynnissa == false){
+        if(panos >= minimipanos + 0.5){
+            panos -= 0.5;  
+        }
+       
+        paivitaKaikki();
     }
    
-    paivitaKaikki();
 }
 
 
